@@ -9,11 +9,11 @@
   <ItemGroup>
     <Folder Include="Common\Attributs\" />
     <Folder Include="Common\Validation\" />
-    <Folder Include="Common\Helpers\" />
     <Folder Include="Common\Security\" />
-    <Folder Include="Dtos\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
   </ItemGroup>
 
   <ItemGroup>
