@@ -11,7 +11,7 @@ namespace ExcelData.WebApi.Controllers;
 public class UsersController : ControllerBase
 {
     private readonly IUserService _service;
-    private readonly int maxPageSize = 3;
+    private readonly int maxPageSize = 50;
 
     public UsersController(IUserService userService)
     {
